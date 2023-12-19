@@ -18,4 +18,8 @@ void bubble_sort(int *array, size_t size)
 	{
 		if (array[x + 1])
 		{
+			for (y = 0; y <= size; y++)
+			{
+				if (array[y + 1])
+				{
 
