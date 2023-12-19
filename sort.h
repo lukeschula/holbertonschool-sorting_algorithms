@@ -24,9 +24,5 @@ void print_array(const int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-void swapping_prev_next(listint_t *ptr);
-void swapping_prev(listint_t *ptr);
-void swapping_next(listint_t *ptr);
-void swapping_none(listint_t *ptr);
 #endif 
 
