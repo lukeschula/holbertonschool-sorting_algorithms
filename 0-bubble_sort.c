@@ -22,5 +22,15 @@ void bubble_sort(int *array, size_t size)
 			{
 				if (array[y + 1])
 				{
-					if (array
-
+					if (array[y] > array[y + 1])
+					{
+						sw = array[y];
+						array[y] = array[y + 1];
+						array[y + 1] = sw;
+						print_array(array, size);
+					}
+				}
+			}
+		}
+	}
+}
