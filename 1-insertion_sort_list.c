@@ -27,11 +27,18 @@ void insertion_sort_list(listint_t **list)
 				*list = ptr->prev;
 			}
 			else if (ptr->next->next == NULL)
-			{
+			
 				swapping_next(ptr);
 			else
 				swapping_none(ptr);
 			print_list(*list);
+			while (ptr->prev)
+				ptr = ptr->prev;
+			continue;
+		}
+		ptr = ptr->next;
+	}
+}
 
 			
 
