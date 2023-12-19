@@ -31,8 +31,8 @@ void selection_sort(int *array, size_t size)
  */
 void swapped(int *s, int *t)
 {
-	int ptr = *s;
+	int r = *s;
 
 	*s = *t;
-
-	*t = ptr;
+	*t = r;
+}
