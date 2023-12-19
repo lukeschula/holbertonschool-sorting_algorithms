@@ -25,3 +25,4 @@ void help_quick_sort(int *array, int l, int r, size_t size)
  *
  *
  */
+void quick_sort(int *array, size_t size);
