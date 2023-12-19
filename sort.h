@@ -28,5 +28,6 @@ void swapping_prev_next(listint_t *ptr);
 void swapping_prev(listint_t *ptr);
 void swapping_next(listint_t *ptr);
 void swapping_none(listint_t *ptr);
+void swapped(int *s, int *t);
 #endif 
 
