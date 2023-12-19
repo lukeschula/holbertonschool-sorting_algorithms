@@ -13,3 +13,16 @@ void selection_sort(int *array, size_t size)
 	for (a = 0; a < size; a++)
 	{
 		m_vlue = a;
+
+		for (b = a + 1; b < size; b++)
+		{
+			if (array[m_vlue] > array [j])
+				m_vlue = b;
+		}
+		if (min != a)
+		{
+			swapped(&array[m_vlue], &array[a]);
+			print_array(array, size);
+		}
+	}
+}
