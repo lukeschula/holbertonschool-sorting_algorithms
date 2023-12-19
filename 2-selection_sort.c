@@ -14,4 +14,8 @@ void help_quick_sort(int *array, int l, int r, size_t size)
 	help_quick_sort(array, l, pvt -1, size);
 	help_quick_sort(array, pvt + 1, r, size);
 }
+/**
+ *
+ *
+ */
 
