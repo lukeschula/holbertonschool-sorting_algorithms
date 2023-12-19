@@ -22,4 +22,5 @@ void bubble_sort(int *array, size_t size)
 			{
 				if (array[y + 1])
 				{
+					if (array
 
