@@ -29,5 +29,7 @@ void swapping_prev(listint_t *ptr);
 void swapping_next(listint_t *ptr);
 void swapping_none(listint_t *ptr);
 void swapped(int *s, int *t);
+void recursive_sort(int *array, int lower, int upper, size_t size);
+int partition(int *array, int lower, int upper, size_t size);
 #endif 
 
