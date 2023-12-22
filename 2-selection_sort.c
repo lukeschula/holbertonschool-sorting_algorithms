@@ -1,8 +1,8 @@
 #include "sort.h"
 /**
- *
- *
- *
+ * selction_sort - selectively sort parameters
+ * @array: input array
+ * @size: struct variable
  */
 void selection_sort(int *array, size_t size)
 {
@@ -27,7 +27,9 @@ void selection_sort(int *array, size_t size)
 	}
 }
 /**
- *
+ * swapped - swap pointers
+ * @s: pointer input
+ * @t: pointer input
  */
 void swapped(int *s, int *t)
 {
