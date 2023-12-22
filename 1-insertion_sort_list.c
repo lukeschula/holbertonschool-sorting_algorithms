@@ -1,9 +1,8 @@
 #include "sort.h"
 /**
- *
- *
- *
- *
+ * insertion_sort_list - insertion sorting algorithm integers
+ * @list: the head of the linked list
+ * Return: nothing in-place algorithm
  */
 void insertion_sort_list(listint_t **list)
 {
@@ -40,9 +39,8 @@ void insertion_sort_list(listint_t **list)
 	}
 }
 /**
- *
- *
- *
+ * swapping_prev_next - swaps the prev and next pointers
+ * @ptr: pointer to struct
  */
 void swapping_prev_next(listint_t *ptr)
 {
@@ -51,9 +49,8 @@ void swapping_prev_next(listint_t *ptr)
         ptr->prev->next = ptr;
 }
 /**
- *
- *
- *
+ * swapping_prev - swaps the prev and next pointers
+ * @ptr: pointer to struct
  */
 void swapping_prev(listint_t *ptr)
 {
@@ -64,9 +61,8 @@ void swapping_prev(listint_t *ptr)
         ptr->prev->next = ptr;
 }
 /**
- *
- *
- *
+ * swapping_next - swaps the prev and next pointers
+ * @ptr: pointer to struct
  */
 void swapping_next(listint_t *ptr)
 {
@@ -76,9 +72,8 @@ void swapping_next(listint_t *ptr)
         ptr->prev = ptr->next, ptr->next = NULL;
 }
 /**
- *
- *
- *
+ * swapping_none - swaps the prev and next pointers 
+ * @ptr: pointer to struct
  */
 void swapping_none(listint_t *ptr)
 {
