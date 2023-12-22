@@ -1,8 +1,11 @@
 #include "sort.h"
 /**
- *
- *
- *
+ * partition - this partitions the array and swaps
+ * @array: input array
+ * @lower: lower index
+ * @upper: upper index
+ * @size: size of array
+ * Return: return the partioned index
  */
 int partition(int *array, int lower, int upper, size_t size)
 {
@@ -36,8 +39,11 @@ int partition(int *array, int lower, int upper, size_t size)
 	return (x + 1);
 }
 /**
- *
- *
+ * recursive_sort - sorting the array using recursion
+ * @array: input array
+ * @lower: low index
+ * @upper upper index
+ * @size: input size of array
  */
 void recursive_sort(int *array, int lower, int upper, size_t size)
 {
@@ -51,7 +57,9 @@ void recursive_sort(int *array, int lower, int upper, size_t size)
 	}
 }
 /**
- *
+ * quick_sort - sory array using quick sort method
+ * @array: input array
+ * @size: input size of array
  */
 void quick_sort(int *array, size_t size)
 {
