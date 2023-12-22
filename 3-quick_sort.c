@@ -42,7 +42,7 @@ int partition(int *array, int lower, int upper, size_t size)
  * recursive_sort - sorting the array using recursion
  * @array: input array
  * @lower: low index
- * @upper upper index
+ * @upper: upper index
  * @size: input size of array
  */
 void recursive_sort(int *array, int lower, int upper, size_t size)
